@@ -1,0 +1,225 @@
+.header-banner {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the start (left) */
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 8vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-20px);
+    z-index: 10000;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+}
+
+.header-banner.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.header-banner-logo {
+    width: 50px; /* Adjust size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.header-banner h2 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+.HeaderImage
+{
+    margin-top: 1vw;
+    width: 35vw;
+    height: 20vh;
+    border-radius:80px ;
+    justify-content: center;
+    position: relative;
+    z-index: 1010;
+}
+
+.floating-box {
+    padding: 10px 20px;
+    background-color: #E97451;
+    color: white;
+    font-size: 2vh;
+    border-radius: 8px;
+    opacity: 0;
+    margin-top: -10vh;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    width: 88vw;
+    transform: translateX(20px);
+    margin-left: 1vw;
+    font-family: 'Georgia', serif; /* Elegant font style */
+    font-size: 18px; /* Slightly larger font size */
+    line-height: 1.8; /* Increased line spacing for readability */
+    color: wheat; /* Darker text color for contrast */
+    text-align: justify; /* Justify the text */
+    z-index: 1000;
+}
+
+.floating-box.visible {
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 1000;
+}
+.floating-box-u {
+    padding: 10px 20px;
+    background-color: #DAA520;
+    color: white;
+    font-size: 2vh;
+    border-radius: 8px;
+    opacity: 0;
+    margin-top: -10vh;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    width: 88vw;
+    transform: translateX(-20px);
+    margin-left: 1vw;
+    font-family: 'Georgia', serif; /* Elegant font style */
+    font-size: 18px; /* Slightly larger font size */
+    line-height: 1.8; /* Increased line spacing for readability */
+    color: wheat; /* Darker text color for contrast */
+    text-align: justify; /* Justify the text */
+    z-index: 1000;
+}
+
+.floating-box-u.visible {
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 1000;
+}
+.Footer
+{
+    background-color: #28282B;
+    bottom: 0;
+    height: 20vh;
+}
+/* Button to open the popup */
+.open-popup-button 
+{
+        background-color: wheat; /* Green background */
+        color: white; /* White text */
+        border: none; /* No border */
+        padding: 10px 20px; /* Padding */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Cursor changes to pointer on hover */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition */
+    }
+
+    /* Button style on hover */
+.open-popup-button:hover {
+        background-color: #ccc; /* Darker green background */
+    }
+
+/* Popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow-x: hidden;
+}
+
+/* Popup content */
+.popup-content {
+    background-color: #f4e6d7;
+    width: 80vw;
+    height: 60vh;
+    padding: 30px;
+    margin-top: 15vh;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    text-align: justify;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Close button */
+.close-popup-button {
+    position: fixed;
+    top: calc(20vh); /* Adjust position relative to the popup */
+    right: calc(10vw - 35px); /* Adjust position relative to the popup */
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    font-size: 24px;
+    width: 5px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2000; /* Ensure the button is above other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-popup-button:hover {
+    background-color: #e5533d;
+}
+
+/* Styling for the letter */
+.letter {
+    margin: 20px 0;
+}
+
+.letter p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.letter p:first-child {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.letter p:last-child {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+
+.envelope {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background: #f3f3f3;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.open-button {
+    width: 100%;
+    height: 100%;
+    background: #ff6347;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}

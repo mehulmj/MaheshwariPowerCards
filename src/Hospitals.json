@@ -1,0 +1,119 @@
+{
+  "Hospitals": [
+    {
+      "S.NO": 1,
+      "NAME": "ASG EYES HOSPITALS",
+      "COLOBRATTOR": "Mayank Dilip Mundra",
+      "ADDRESS": "7C-2 ,Meera marg near mira girls college, Madhuban Udaipur Rajasthan-313001",
+      "OFFERS": "First OPD  Consulattion Free charges for every member in the card"
+    },
+    {
+      "OFFERS": "50 % Discount From Second OPD Consulation "
+    },
+    {
+      "OFFERS": "10 % Discount on IPD procedures excluding consumables,minors or investigations, optical"
+    },
+    {
+      "S.NO": 2,
+      "NAME": "SHREE KRISHNA CHILDREN HOSPITAL",
+      "ADDRESS": "3 Madhav vihar, 100 feet road, near roots opp. Nayra petrol pump shobhagpura, udaipur rajasthan 313001",
+      "OFFERS": "15% Discount on IPD & investigation (Laboratory) "
+    },
+    {
+      "OFFERS": "10% Discount on pharmecy "
+    },
+    {
+      "OFFERS": "20% Discount on OPD"
+    },
+    {
+      "S.NO": 3,
+      "NAME": "PARAS HEALTHCARE PVT LTD ",
+      "ADDRESS": "1 SHOBHAGPURA CIRCLE UDAIPUR",
+      "OFFERS": "Offer I- OPD Services"
+    },
+    {
+      "OFFERS": "Free UHID generation (Registration)"
+    },
+    {
+      "OFFERS": "15% Dis. on doctor consultation"
+    },
+    {
+      "OFFERS": "10% Dis. on Pharmacy, Physiotherapy, Radiology & Laboratory (Excluding OutsourceLab/Radiology service)"
+    },
+    {
+      "OFFERS": "One Free consulation with Physicain and Dietician"
+    },
+    {
+      "OFFERS": "Offer II- Preventive Health Checkup Packages"
+    },
+    {
+      "OFFERS": "One comlimentary health checkup of INR 3500/- (One person one card per year)"
+    },
+    {
+      "OFFERS": "Offer III- Hospitilazion Services"
+    },
+    {
+      "OFFERS": "10% Dis. On hospital bill (Excluding medicines, consumables, implants & outsource services)"
+    },
+    {
+      "OFFERS": "(only applicable for cash cases) maximum ceiling for discount is not more than INR 20,000/- in one bill"
+    },
+    {
+      "S.NO": 4,
+      "NAME": "GEETANJALI HOPITAL",
+      "ADDRESS": "Geetanjali medicity, hiran magri extn, eklingpura chouraha, udaipur, rajasthan",
+      "OFFERS": "10% Dis. On hospital bill (Excluding medicines, consumables, implants & outsource services)"
+    },
+    {
+      "OFFERS": "15% Dis. on OPD base service like consultaion, athology and Radiology "
+    },
+    {
+      "S.NO": 5,
+      "NAME": "GBH AMERICAN HOSPITAL",
+      "ADDRESS": "101, kothi bagh, bhatt ji ki bari, udaipur, rajasthan ",
+      "OFFERS": "10% Discount on OPD"
+    },
+    {
+      "OFFERS": "15% Discount on OPD in house lab "
+    },
+    {
+      "OFFERS": "5% Discount on OPD pharmecy long term medicine"
+    },
+    {
+      "OFFERS": "10% Discount on IPD excluding pharmecy, implant and consumable"
+    },
+    {
+      "S.NO": 6,
+      "NAME": "GOVINDAM HOSPITAL",
+      "ADDRESS": "Indraprastha Complex, Govindam hospital, opposite ICAI Bhawan Road, Sector 14, Hiran Magri, Udaipur, Gordhan Vilas Rural, Rajasthan 313002",
+      "OFFERS": "20% Discount on OPD consultancy"
+    },
+    {
+      "OFFERS": "10% Discount on pharmacy, physiotherapy"
+    },
+    {
+      "OFFERS": "20% Discount on blood test and Xray"
+    },
+    {
+      "S.NO": 7,
+      "NAME": "ANANTA HOSPITAL",
+      "ADDRESS": "Tehsil Siyol, Village Kaliwas, National Highway - 8, Distt, Nathdwara, Rajasthan 313002",
+      "OFFERS": "20% Discount on IPD and OPD excluding medicines, implant and consumable and any packages rates if any."
+    },
+    {
+      "OFFERS": "Free normal delivery and cesarean section (excluding ICU charges, Blood transfusion charges, private room and any high end investigations which are not included in delivery package) "
+    },
+    {
+      "OFFERS": "20% Discount on pathology service accept outsource test, xray, USG"
+    },
+    {
+      "OFFERS": "10% Discount on city scan and MRI"
+    },
+    {
+      "S.NO": 8,
+      "NAME": "PACIFIC HOSPITAL",
+      "ADDRESS": "Bhilon ka Bedla, N.H. 27, Pratap Pura, Girwa, Udaipur, Rajasthan 313001",
+      "OFFERS": "30% Discount on IPD and OPD excluding medicines, implant and consumable and any packages rates if any."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+/* .header
+{
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+} */
+.header::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background-image: url('./mycHeader.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.5) blur(4px); /* Adjust the blur intensity */
+    z-index: -1; /* Places the background below the content */
+}
+.header-content
+{
+    z-index: 1;
+    margin-top: 28vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body
+{
+    margin-top: 10vh;
+}
+.body-content
+{
+    margin-left: 5vw;
+}
+.fixed-banner {
+    position: fixed;
+    top: 0;
+    height: 9vh;
+    width: 100%;
+    z-index: 1001;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    text-align: center;
+    background-image: url(./banner.png)
+  }
+  .fixed-footer {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 1001;
+    background-color: black;
+    bottom: 0;
+  }

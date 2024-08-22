@@ -1,0 +1,56 @@
+.blur-background .background-content {
+    filter: blur(5px); /* Adjust the blur level as needed */
+    pointer-events: none; /* Prevent interaction with blurred content */
+  }
+  .fixed-banner {
+    position: fixed;
+    top: 0;
+    height: 7vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 1001;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    text-align: center;
+    background-image: url(./banner.png)
+  }
+  
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    transition: top 0.3s;
+  }
+  .fixed-footer {
+    position: fixed;
+    height: 9vh;
+    width: 100%;
+    z-index: 1001;
+    background-image: url(./banner.png);
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  .fixed-footer.hidden {
+    transform: translateY(100%);
+  }
+  .footer
+  {
+    background-color: black;
+    height: 10vh;
+    margin-top: -3vh;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the popup is above other content */
+  }
