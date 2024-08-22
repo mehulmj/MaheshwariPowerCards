@@ -23,7 +23,7 @@
 }
 
 .header-banner-logo {
-    width: 50px; /* Adjust size of the logo */
+    width: 80px; /* Adjust size of the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 15px; /* Space between image and text */
 }
@@ -37,9 +37,9 @@
 .HeaderImage
 {
     margin-top: 1vw;
-    width: 35vw;
+    width: 37vw;
     height: 20vh;
-    border-radius:80px ;
+    border-radius:30px ;
     justify-content: center;
     position: relative;
     z-index: 1010;

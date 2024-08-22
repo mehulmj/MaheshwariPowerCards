@@ -70,18 +70,17 @@ export default function Mpc()
             </CardContent>
         </Card>
         </Link>
-        <br/>
           </div>);
         }
         return elements;
       })()}
-    </div>        
+    </div>      
+    <div style={{height:"10vh"}}/>  
                     </div>
                 </div>
             {/*Footer*/}
             { showBanner &&
         <div className='fixed-footer'>
-           <h4 style={{color: "white", paddingTop: "1vh"}}>Maheshwari Card</h4>
         </div>
       }
             </div>
