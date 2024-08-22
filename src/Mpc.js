@@ -10,6 +10,7 @@ export default function Mpc()
 {   
     const content_items = ['Hospitals','Diagnostic Center','Doctors','Pharmacy','Physiotherapy','Restaruant','Hotels','GYM','Bakery',
 'Sports Academy','Apparels','Hardware','Grocery','Jewellary','Automobile','Tution Center','Consultancy','Others'];
+    const content_images = ['Doctor.jpeg','Daignostics centre.JPG','Doctor.jpeg',''];
     const [showBanner, setShowBanner] = useState(false);
     useEffect(() => {
       const handleScroll = () => {

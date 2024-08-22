@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Typography from "@mui/material/Typography";
 import logo from "./Logo.png";
-import logo_2 from './unmys.jpg'
+import logo_2 from './unmys.png'
 import mayankmundraImage from "./mayankmundra.JPG"
 import architpalodImage from "./architpalod.jpg"
 import Card from "@mui/material/Card";
@@ -49,8 +49,8 @@ export default function HomePage() {
   return (
     <div>
       <div className={`header-banner ${isVisible_1 ? 'visible' : ''}`}>
-        <img src={logo} className="header-banner-logo"></img>
-        <h2>Maheshwari Power Cards</h2>
+        <img src={logo_2} className="header-banner-logo"></img>
+        <h2>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h2>
         </div>
     <div style={{marginTop :"35vh"}}>
       <img src={logo} className="HeaderImage" />
@@ -84,10 +84,10 @@ export default function HomePage() {
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
-            President
+          Mayank Mundra 
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Mayank Mundra
+           President
           </Typography>
           <div>
             <div style={{
@@ -134,10 +134,10 @@ export default function HomePage() {
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">
-            Secretary
+          Archit Palod
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Archit Palod
+            Secretary
           </Typography>
         </CardContent>
       </Card>
