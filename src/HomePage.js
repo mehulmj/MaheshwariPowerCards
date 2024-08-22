@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Typography from "@mui/material/Typography";
-import logo from "./Logo.png";
-import logo_2 from './unmys.png'
+import logo_2 from "./Logo.png";
+import logo from './unmys.png'
 import mayankmundraImage from "./mayankmundra.JPG"
 import architpalodImage from "./architpalod.jpg"
 import Card from "@mui/material/Card";
