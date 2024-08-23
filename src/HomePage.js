@@ -50,7 +50,8 @@ export default function HomePage() {
     <div>
       <div className={`header-banner ${isVisible_1 ? 'visible' : ''}`}>
         <img src={logo_2} className="header-banner-logo"></img>
-        <h2>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h2>
+        <h4>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h4>
+        
         </div>
     <div style={{marginTop :"35vh"}}>
       <img src={logo} className="HeaderImage" />

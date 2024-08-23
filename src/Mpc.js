@@ -5,6 +5,8 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import "./Mpc.css";
+import HomeIcon from '@mui/icons-material/Home';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { Link } from "react-router-dom";
 export default function Mpc()
 {   
@@ -59,7 +61,9 @@ export default function Mpc()
             <div className="header">
                 <div className="header-content">
                    <h3> Maheshwari Power Card</h3>
+                   <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></span>
                 </div>
+                
             </div>
             <div className="body">
                 <div className="bodyHeader">

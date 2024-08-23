@@ -5,14 +5,13 @@ import {useLocation,Link} from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import './ContentPage.css';
-
 async function fetch_data(sheet_name)
 {
     const encodedCategory = encodeURIComponent(sheet_name);
-    return await fetch(`http://51.20.1.124:5000/?category=${encodedCategory}`)
+    return await fetch(`http://127.0.0.1:5000/?category=${encodedCategory}`)
     .then(response => {
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error('Network response was not ok'); 
       }
       return response.json();
     })
@@ -88,7 +87,7 @@ export default function ContentPage()
         <div className="header">
         <div className="header-content">
            <h3>{state.contentHeader}</h3>
-           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
+           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><Link to="/PowerCards" style={{textDecoration:"None"}}><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></Link><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
         </div>
         </div>
         {/* Content */}
