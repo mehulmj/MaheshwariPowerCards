@@ -8,8 +8,31 @@ import "./Mpc.css";
 import { Link } from "react-router-dom";
 export default function Mpc()
 {   
-    const content_items = ['Hospitals','Diagnostic Center','Doctors','Pharmacy','Physiotherapy','Restaruant','Hotels','GYM','Bakery',
-'Sports Academy','Apparels','Hardware','Grocery','Jewellary','Automobile','Tution Center','Consultancy','Others'];
+    const content_items = [
+    'Hospitals',
+    'Doctor',
+    'Physiotherapy',
+    'Diagnostics',
+    'Medical Store',
+    'Hotels',
+    'Restaurant',
+    'Bakery',
+    'Cafe & Ice Cream Parlour',
+    'Salon-Parlour',
+    'Education',
+    'Jewellery',
+    'Yoga & Gym',
+    'Sports',
+    'Apparel & Household',
+    'Hardware & Electronics',
+    'Automobiles',
+    'Consultancy',
+    'E-Mitra',
+    "Insurance & Finance",
+    'Grocery & General Items',
+    'Marbles & Granite & Tiles',
+    'Industry',
+    'Others'];
     const content_images = ['Doctor.jpeg','Daignostics centre.JPG','Doctor.jpeg',''];
     const [showBanner, setShowBanner] = useState(false);
     useEffect(() => {
@@ -85,4 +108,4 @@ export default function Mpc()
       }
             </div>
     );
-}
+} 

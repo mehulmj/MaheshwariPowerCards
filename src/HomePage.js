@@ -57,7 +57,7 @@ export default function HomePage() {
       <br />
       <div className={`floating-box ${isVisible_1 ? 'visible' : ''}`}>
         <div style={{height: "10vh"}} />
-        <h2 style={{paddingLeft: "10vw"}}>Maheshwari Samaj</h2>
+        <h2 style={{paddingLeft: "10vw",textAlign:"center"}}>About Maheshwari Samaj</h2>
           <p>The Maheshwari Samaj is a culturally rich community with roots in Rajasthan,
               known for its strong traditions in business, trade, and philanthropy.
               Embracing unity and heritage, the Maheshwari community plays an active role
@@ -69,7 +69,7 @@ export default function HomePage() {
       <br />
       <div className={`floating-box-u ${isVisible_2 ? 'visible' : ''}`}>
         <div style={{height: "10vh"}} />
-        <h3 style = {{lineHeight: "1"}}>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h3>
+        <h3 style = {{lineHeight: "1",textAlign:"center"}}>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h3>
           <p>The UNMYS is a prominent organization representing the Maheshwari yuva community on a udaipur level,
             fostering unity and cultural preservation. Committed to the welfare of its members, it plays a pivotal role 
             in connecting and empowering the Maheshwari community across udaipur.</p>
@@ -97,7 +97,7 @@ export default function HomePage() {
             <p>It’s a great honor to speak to you as the President of the UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN. As we explore our shared heritage, I am truly inspired by the unity and strength that bring us together.</p>
             </div>             
             <button className="open-popup-button" onClick={openPopup}>
-                Read More __________
+                Read More ....
             </button>
 
             {isOpen && (
