@@ -144,7 +144,7 @@ export default function HomePage() {
       </Card>
       <br/>
       <div className='Footer'>
-            <Link to = "/PowerCards"><h3 style={{color: "white", paddingTop: "8vh"}}>Maheshwari Card</h3></Link>
+            <Link to = "/MaheshwariPowerCards"><h3 style={{color: "white", paddingTop: "8vh"}}>Maheshwari Card</h3></Link>
       </div>
     </div>
     </div>

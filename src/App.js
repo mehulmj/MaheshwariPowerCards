@@ -12,7 +12,7 @@ import ContentPage from './ContentPage';
         <ScrollToTop />
           <Routes>
             <Route path='/' element = {<HomePage/>} />
-            <Route path='/PowerCards' element = {<Mpc/>} />
+            <Route path='/MaheshwariPowerCards' element = {<Mpc/>} />
             <Route path='/Content' element = {<ContentPage/>} />
           </Routes>
         </BrowserRouter>

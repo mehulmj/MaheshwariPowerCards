@@ -87,7 +87,7 @@ export default function ContentPage()
         <div className="header">
         <div className="header-content">
            <h3>{state.contentHeader}</h3>
-           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><Link to="/PowerCards" style={{textDecoration:"None"}}><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></Link><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
+           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><Link to="/MaheshwariPowerCards" style={{textDecoration:"None"}}><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></Link><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
         </div>
         </div>
         {/* Content */}
