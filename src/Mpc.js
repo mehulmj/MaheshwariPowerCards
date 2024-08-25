@@ -37,6 +37,14 @@ export default function Mpc()
     'Others'];
     const content_images = ['Doctor.jpeg','Daignostics centre.JPG','Doctor.jpeg',''];
     const [showBanner, setShowBanner] = useState(false);
+      const [isExpanded, setIsExpanded] = useState(false);
+    
+      const toggleReadMore = () => {
+        setIsExpanded(!isExpanded);
+      };
+    
+      const text = `The Maheshwari Power Card is designed to offer significant discounts and favorable rates across various sectors, including businesses and professions, to all members of the Maheshwari community. Its primary goal is to help Maheshwari families save money while encouraging increased transactions within the community. The discounts provided through the card are valid for a specified period, but the exact duration of these discounts does not need to be mentioned. Overall, the card aims to strengthen community ties by promoting mutual support and engagement among its members.`;
+    
     useEffect(() => {
       const handleScroll = () => {
       const offset = window.scrollY;
@@ -76,7 +84,25 @@ export default function Mpc()
                             <span style={{ color: "red" }}>&nbsp;cards</span>
                         </div>
                     </h3>
-                    <div className="body-header-content" style={{marginLeft:"35vw",marginRight:"10vw",lineHeight:"1.8",fontSize: "2vh",color:"grey",textAlign:"justify"}}>We offer various discount coupons to our clients. These coupons are valid for a period of time and of course not to mention</div>
+                    <div
+                    className="body-header-content"
+      style={{
+        marginLeft: "35vw",
+        marginRight: "10vw",
+        lineHeight: "1.8",
+        fontSize: "2vh",
+        color: "grey",
+        textAlign: "justify",
+      }}
+    >
+      {isExpanded ? text : `${text.substring(0, 100)}...`}
+      <span
+        onClick={toggleReadMore}
+        style={{ color: "blue", cursor: "pointer", marginLeft: "5px" }}
+      >
+        {isExpanded ? "Read Less" : "Read More"}
+      </span>
+    </div>
                     <br/>
                     <div className="body-content">
       {(function() {

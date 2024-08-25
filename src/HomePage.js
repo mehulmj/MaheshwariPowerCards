@@ -50,8 +50,10 @@ export default function HomePage() {
     <div>
       <div className={`header-banner ${isVisible_1 ? 'visible' : ''}`}>
         <img src={logo_2} className="header-banner-logo"></img>
-        <h4>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h4>
-        
+        <h2>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h2>
+        </div>
+        <div className={`header-menu ${isVisible_1 ? 'visible' : ''}`}>
+        <Link to = "/MaheshwariPowerCards"><Button color='primary'>Maheshwari Power Cards</Button></Link>
         </div>
     <div style={{marginTop :"35vh"}}>
       <img src={logo} className="HeaderImage" />

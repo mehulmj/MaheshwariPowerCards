@@ -21,6 +21,28 @@
     opacity: 1;
     transform: translateY(0);
 }
+.header-menu {
+    position: fixed; /* Keep this as fixed */
+    top: 10.7vh; /* Position it right below the first banner */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the start (left) */
+    background-color: tan;
+    width: 100vw;
+    height: 6vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-20px);
+    z-index: 10000;
+    padding-left: 18vw;
+    padding-bottom: 2vw;
+}
+
+.header-menu.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .header-banner-logo {
     width: 80px; /* Adjust size of the logo */
