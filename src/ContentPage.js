@@ -87,7 +87,7 @@ export default function ContentPage()
         <div className="header">
         <div className="header-content">
            <h3>{state.contentHeader}</h3>
-           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><Link to="/MaheshwariPowerCards" style={{textDecoration:"None"}}><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></Link><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
+           <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><Link to="/MaheshwariPowerCards"  style={{textDecoration:"None",verticalAlign:"top"}}><span><b>Maheshwari Power Card</b></span></Link><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>{state.contentHeader}</b></span></span>
         </div>
         </div>
         {/* Content */}
@@ -173,7 +173,7 @@ export default function ContentPage()
       )}
         {/* footer */}
         <div className='footer'>
-           <h4 style={{color: "white", paddingTop: "1vh"}}>Maheshwari Card</h4>
+          <Link to = "/MaheshwariPowerCards"> <h4 style={{color: "white", paddingTop: "1vh"}}>Maheshwari Power Card</h4></Link>
         </div>
         {/*Fixed Footer*/}
       { showFooterBanner &&

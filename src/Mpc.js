@@ -67,7 +67,7 @@ export default function Mpc()
             <div className="header">
                 <div className="header-content">
                    <h3> Maheshwari Power Card</h3>
-                   <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>Maheshwari Power Cards</b></span></span>
+                   <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>Maheshwari Power Card</b></span></span>
                 </div>
                 
             </div>
