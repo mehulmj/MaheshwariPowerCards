@@ -87,7 +87,7 @@ const closeUNMYSPopup = () => {
       <br />
       <div className={`floating-box-u ${isVisible_2 ? 'visible' : ''}`}>
         <div style={{height: "10vh"}} />
-        <h3 style = {{lineHeight: "1",textAlign:"center"}}>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h3>
+        <h3 style = {{lineHeight: "1",textAlign:"center"}}>ABOUT UNMYS</h3>
           <p style={{textAlign:"center"}}>The Udaipur nagar maheshwari yuva sangthan (UNMYS) is a leading organization dedicated to representing and supporting the Maheshwari  community in Udaipur district. As a prominent entity within the region, UNMYS is at the forefront of fostering unity, development and upliftment of community</p>
             <button className="open-popup-button" onClick={openUNMYSPopup}>
                 Read More ....
