@@ -8,7 +8,7 @@ import './ContentPage.css';
 async function fetch_data(sheet_name)
 {
     const encodedCategory = encodeURIComponent(sheet_name);
-    return await fetch(`http://51.20.171.186:5000/?category=${encodedCategory}`)
+    return await fetch(`http://127.0.0.1:5000/?category=${encodedCategory}`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok'); 

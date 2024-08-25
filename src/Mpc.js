@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Typography from "@mui/material/Typography";
-import hospitalback from "./hospitalback.jpg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -35,7 +34,6 @@ export default function Mpc()
     'Marbles & Granite & Tiles',
     'Industry',
     'Others'];
-    const content_images = ['Doctor.jpeg','Daignostics centre.JPG','Doctor.jpeg',''];
     const [showBanner, setShowBanner] = useState(false);
       const [isExpanded, setIsExpanded] = useState(false);
     
@@ -113,7 +111,7 @@ export default function Mpc()
             <Card sx={{ marginLeft: "5vw", maxWidth: 300 }}>
         <CardMedia
           sx={{ height: 200, objectFit: "cover" }}
-          image={hospitalback}
+          image={require(`./Images/` + content_items[i] +`.JPG`)}
           title={content_items[i]}
         />
         <CardContent>
@@ -123,6 +121,7 @@ export default function Mpc()
             </CardContent>
         </Card>
         </Link>
+        <div style={{height:"2vh"}}/>  
           </div>);
         }
         return elements;

@@ -2,7 +2,7 @@
     filter: blur(5px); /* Adjust the blur level as needed */
     pointer-events: none; /* Prevent interaction with blurred content */
   }
-  .fixed-banner {
+  /* .fixed-banner {
     position: fixed;
     top: 0;
     height: 6vh;
@@ -14,7 +14,88 @@
     text-align: center;
     background-image: url(./banner_1.png)
   }
-  
+   */
+   .fixed-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;  /* Full width */
+    height: auto; /* Auto height to fit content */
+    z-index: 1001;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 0; /* Adjust padding as necessary */
+    background-size: contain; /* Ensures the image fits within the banner */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-color: #f8f8f8; /* Set a background color if needed */
+    height: 70px; /* Set initial height to match image height */
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 768px) {
+    .fixed-banner {
+        height: 200px; /* Adjust height for larger screens */
+        background-size: cover;
+        background-image: url(./head_banner_2.png);
+
+    }
+}
+
+@media (max-width: 767px) {
+    .fixed-banner {
+        height: 50px; /* Adjust height for medium screens */
+        background-size: cover;
+        background-image: url(./banner_1.png);
+
+    }
+}
+
+@media (max-width: 480px) {
+    .fixed-banner {
+        height: 70px; /* Adjust height for small screens */
+        background-size: cover;
+        background-image: url(./banner_1.png);
+
+    }
+}
+
+
+.fixed-footer {
+  position: fixed;
+  height: 9vh;
+  width: 100%;
+  z-index: 1001;
+  background-image: url(./banner.png);
+  bottom: 0;
+  transition: transform 0.3s ease-in-out;
+}
+@media (min-width: 768px) {
+  .fixed-footer {
+      height: 200px; /* Adjust height for larger screens */
+      background-size: cover;
+      background-image: url(./banner_2.png);
+
+  }
+}
+
+@media (max-width: 767px) {
+  .fixed-footer {
+      height: 50px; /* Adjust height for medium screens */
+      background-size: cover;
+      background-image: url(./banner.png);
+
+  }
+}
+
+@media (max-width: 480px) {
+  .fixed-footer {
+      height: 70px; /* Adjust height for small screens */
+      background-size: cover;
+      background-image: url(./banner.png);
+
+  }
+}
+
   .fixed-header {
     position: fixed;
     top: 0;
@@ -24,15 +105,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     transition: top 0.3s;
-  }
-  .fixed-footer {
-    position: fixed;
-    height: 9vh;
-    width: 100%;
-    z-index: 1001;
-    background-image: url(./banner.png);
-    bottom: 0;
-    transition: transform 0.3s ease-in-out;
   }
   .fixed-footer.hidden {
     transform: translateY(100%);
