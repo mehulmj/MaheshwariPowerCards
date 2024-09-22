@@ -10,8 +10,6 @@ def return_content():
     sheet_name = request.args.get("category")
     print(sheet_name)
     header = 1
-    if(sheet_name == "Hospitals"):
-        header = 3
     df = pd.read_excel('mpc.xlsx',sheet_name = sheet_name, header = header)
     df.fillna('',inplace = True)
     final = {sheet_name:[]}
