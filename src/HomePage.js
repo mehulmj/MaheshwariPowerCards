@@ -124,7 +124,7 @@ const closeUNMYSPopup = () => {
 
 <p><strong>Conclusion</strong></p>
 
-<p>In summary, the United Maheshwari Youth Society (UNMYS) is a dynamic organization that plays a vital role in uniting, developing, and empowering the Maheshwari community in Udaipur. Its focus on cultural development, community welfare, empowerment, and engagement ensures that it remains a center point of support and growth for its members. By embracing its rich heritage and addressing contemporary needs, UNMYS continues to make a significant impact on the lives of Maheshwari youth and the Maheshwari community.</p>
+<p>In summary, the Udaipur Nagar Maheshwari Yuva Sangathan (UNMYS) is a dynamic organization that plays a vital role in uniting, developing, and empowering the Maheshwari community in Udaipur. Its focus on cultural development, community welfare, empowerment, and engagement ensures that it remains a center point of support and growth for its members. By embracing its rich heritage and addressing contemporary needs, UNMYS continues to make a significant impact on the lives of Maheshwari youth and the Maheshwari community.</p>
 <p></p>
                         </div>
                     </div>
