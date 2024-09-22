@@ -14,7 +14,7 @@ export default function Mpc()
     'Doctor',
     'Physiotherapy',
     'Diagnostics',
-    'Medical Store',
+    'Pharmacy',
     'Hotels',
     'Restaurant',
     'Bakery',
