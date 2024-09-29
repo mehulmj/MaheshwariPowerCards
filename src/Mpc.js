@@ -5,6 +5,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import "./Mpc.css";
 import HomeIcon from '@mui/icons-material/Home';
+import logo_2 from "./Logo.png";
+
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { Link } from "react-router-dom";
 export default function Mpc()
@@ -34,7 +36,8 @@ export default function Mpc()
     'Insurance & Finance',
     'Grocery & General Items',
     'Marbles & Granite & Tiles',
-    'Industry'];
+    'Industry'
+  ];
     const [showBanner, setShowBanner] = useState(false);
       const [isExpanded, setIsExpanded] = useState(false);
     
@@ -66,6 +69,10 @@ export default function Mpc()
             </div>
             )}
             <div className="header">
+            <div className="header-main">
+        <img src={logo_2} className="header-banner-logo"></img>
+        <h2>UDAIPUR NAGAR MAHESHWARI YUVA SANGATHAN</h2>
+        </div>
                 <div className="header-content">
                    <h3> Maheshwari Power Card</h3>
                    <span><span style={{verticalAlign:"top"}}><Link to="/"><HomeIcon fontSize='small'/></Link></span><span style={{verticalAlign:"top"}}><KeyboardDoubleArrowRightIcon style={{color:"#36454F"}}/></span><span style={{verticalAlign:"top"}}><b>Maheshwari Power Card</b></span></span>

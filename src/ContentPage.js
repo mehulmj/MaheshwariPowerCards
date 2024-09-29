@@ -113,7 +113,7 @@ export default function ContentPage()
           textAlign: "center" }}>
               <h3 onClick={() => openPopup(i)} style={{maxWidth:"80%",margin: "0 auto",textAlign: "center", wordWrap: "break-word",overflowWrap: "break-word"}}>{data[i]["Name"]}</h3>
               <div><h4 style={{color:"grey"}}><span>Address :-</span>{data[i]["Address"]}</h4></div>
-              <div><h6>Collaborator : {data[i]["Collaborator"]}</h6></div>
+              <div><h5>Collaborator : {data[i]["Collaborator"]}</h5></div>
             </Box>}  
             {i%2!=0 && 
           <Box
@@ -130,6 +130,7 @@ export default function ContentPage()
           textAlign: "center" }}>
                <h3 onClick={() => openPopup(i)} style={{maxWidth:"80%",margin: "0 auto",textAlign: "center", wordWrap: "break-word",overflowWrap: "break-word"}}> {data[i]["Name"]}</h3>
                <div><h4 style={{color:"grey"}}><span>Address :-</span>{data[i]["Address"]}</h4></div>
+               <div><h5>Collaborator : {data[i]["Collaborator"]}</h5></div>
             </Box>}
 
         <br/>
