@@ -17,23 +17,24 @@ export default function Mpc()
     'Pharmacy',
     'Hotels',
     'Restaurant',
-    'Bakery',
     'Cafe & Ice Cream Parlour',
-    'Salon-Parlour',
-    'Education',
+    'Bakery',
+    'Salon-Parlour & Cosmetics Store',
+    'Sports Academy',
     'Jewellery',
     'Yoga & Gym',
-    'Sports',
-    'Apparel & Household',
+    'Event Management & Sound',
+    'Apparel & Home Decore',
     'Hardware & Electronics',
     'Automobiles',
     'Consultancy',
+    'E-Commerce & Supports',
+    'Foreign Travel & Exchanges',
     'E-Mitra',
-    "Insurance & Finance",
+    'Insurance & Finance',
     'Grocery & General Items',
     'Marbles & Granite & Tiles',
-    'Industry',
-    'Others'];
+    'Industry'];
     const [showBanner, setShowBanner] = useState(false);
       const [isExpanded, setIsExpanded] = useState(false);
     
