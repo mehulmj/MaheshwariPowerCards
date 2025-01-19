@@ -25,18 +25,24 @@ export default function Mpc()
     'Sports Academy',
     'Jewellery',
     'Yoga & Gym',
-    // 'Event Management & Sound',
+    'Event Management & Sound',
     'Apparel & Home Decore',
     'Hardware & Electronics',
     'Automobiles',
     'Consultancy',
-    // 'E-Commerce & Supports',
-    // 'Foreign Travel & Exchanges',
+    'E-Commerce & Supports',
+    'Foreign Travel & Exchanges',
     'E-Mitra',
     'Insurance & Finance',
     'Grocery & General Items',
     'Marbles & Granite & Tiles',
-    'Industry'
+    'Industry',
+    'Bus. in Rajsamand & Nathdwara',
+    'Business in Kota',
+    'Business in Ahmedabad',
+    'Business in Bhilwara',
+    'Business in Basawara',
+    'Business in Chittorgarh'
   ];
     const [showBanner, setShowBanner] = useState(false);
       const [isExpanded, setIsExpanded] = useState(false);
